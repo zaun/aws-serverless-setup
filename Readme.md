@@ -2,7 +2,7 @@
 
 1. Create and log into your [AWS account](https://aws.amazon.com).
 2. Select **CloudFormation** under the **Management & Governance** section.
-3. Select **Create Stack** and select the aws.yaml file.
+3. Select **Create Stack** and select the cloudformation.yaml file.
 4. Click **Next** to continue.
 5. Give the stack a name. I recommend the name be the site's domain with the **.** replaced with **-**.
 6. *Important:* Leave **DNSIsLive** to No.
