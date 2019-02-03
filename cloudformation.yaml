@@ -553,6 +553,8 @@ Resources:
     Properties:
       AdminCreateUserConfig: 
         AllowAdminCreateUserOnly: false
+      AutoVerifiedAttributes:
+        - email
       EmailConfiguration: 
         ReplyToEmailAddress: 'nobody@notreal.com'
       MfaConfiguration: 'OFF'
@@ -563,8 +565,6 @@ Resources:
           RequireNumbers: false
           RequireSymbols: false
           RequireUppercase: false
-      UsernameAttributes: 
-        - email
       UserPoolName: !Ref DomainName
  
   PoolClient:
